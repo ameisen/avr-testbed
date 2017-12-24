@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="rbbuild\gcc_buildhandler.rb">
+      <Filter>rbbuild</Filter>
+    </None>
+    <None Include="rbbuild\path_support.rb">
+      <Filter>rbbuild</Filter>
+    </None>
+    <None Include="rbbuild\rbbuild.rb">
+      <Filter>rbbuild</Filter>
+    </None>
+    <None Include="rbbuild\thread_exec.rb">
+      <Filter>rbbuild</Filter>
+    </None>
+    <None Include="rbbuild\ascii.rb">
+      <Filter>rbbuild</Filter>
+    </None>
+    <None Include="rbbuild\atomic_int.rb">
+      <Filter>rbbuild</Filter>
+    </None>
+    <None Include="rbbuild\buildopts.rb">
+      <Filter>rbbuild</Filter>
+    </None>
+    <None Include="rbbuild\clang_buildhandler.rb">
+      <Filter>rbbuild</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="arduino\HardwareSerial.h">
+      <Filter>arduino</Filter>
+    </ClInclude>
+    <ClInclude Include="arduino\HardwareSerial_private.h">
+      <Filter>arduino</Filter>
+    </ClInclude>
+    <ClInclude Include="arduino\Print.h">
+      <Filter>arduino</Filter>
+    </ClInclude>
+    <ClInclude Include="arduino\Stream.h">
+      <Filter>arduino</Filter>
+    </ClInclude>
+    <ClInclude Include="arduino\wiring_private.h">
+      <Filter>arduino</Filter>
+    </ClInclude>
+    <ClInclude Include="arduino\Arduino.h">
+      <Filter>arduino</Filter>
+    </ClInclude>
+    <ClInclude Include="__vm\.testbed.vsarduino.h">
+      <Filter>__vm</Filter>
+    </ClInclude>
+    <ClInclude Include="tunalib\algorithm_impl.hpp">
+      <Filter>tunalib</Filter>
+    </ClInclude>
+    <ClInclude Include="tunalib\algorithms.hpp">
+      <Filter>tunalib</Filter>
+    </ClInclude>
+    <ClInclude Include="tunalib\arg_type.hpp">
+      <Filter>tunalib</Filter>
+    </ClInclude>
+    <ClInclude Include="tunalib\async.hpp">
+      <Filter>tunalib</Filter>
+    </ClInclude>
+    <ClInclude Include="tunalib\chrono.hpp">
+      <Filter>tunalib</Filter>
+    </ClInclude>
+    <ClInclude Include="tunalib\debug.hpp">
+      <Filter>tunalib</Filter>
+    </ClInclude>
+    <ClInclude Include="tunalib\fixed.hpp">
+      <Filter>tunalib</Filter>
+    </ClInclude>
+    <ClInclude Include="tunalib\flash.hpp">
+      <Filter>tunalib</Filter>
+    </ClInclude>
+    <ClInclude Include="tunalib\initializer_list.h">
+      <Filter>tunalib</Filter>
+    </ClInclude>
+    <ClInclude Include="tunalib\intrinsics.hpp">
+      <Filter>tunalib</Filter>
+    </ClInclude>
+    <ClInclude Include="tunalib\macros.hpp">
+      <Filter>tunalib</Filter>
+    </ClInclude>
+    <ClInclude Include="tunalib\math.hpp">
+      <Filter>tunalib</Filter>
+    </ClInclude>
+    <ClInclude Include="tunalib\memory.hpp">
+      <Filter>tunalib</Filter>
+    </ClInclude>
+    <ClInclude Include="tunalib\meta_types.hpp">
+      <Filter>tunalib</Filter>
+    </ClInclude>
+    <ClInclude Include="tunalib\serial.hpp">
+      <Filter>tunalib</Filter>
+    </ClInclude>
+    <ClInclude Include="tunalib\traits.hpp">
+      <Filter>tunalib</Filter>
+    </ClInclude>
+    <ClInclude Include="tunalib\tunalib.hpp">
+      <Filter>tunalib</Filter>
+    </ClInclude>
+    <ClInclude Include="tunalib\type_traits.hpp">
+      <Filter>tunalib</Filter>
+    </ClInclude>
+    <ClInclude Include="tunalib\types.hpp">
+      <Filter>tunalib</Filter>
+    </ClInclude>
+    <ClInclude Include="tunalib\utils.hpp">
+      <Filter>tunalib</Filter>
+    </ClInclude>
+    <ClInclude Include="tunalib\arch\avr.hpp">
+      <Filter>tunalib\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="tuna.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="__vm">
+      <UniqueIdentifier>{027f9ec7-2c86-4038-a6a1-c21305ad5ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rbbuild">
+      <UniqueIdentifier>{6a152b72-6e1b-4e63-9b09-716f4f86a24b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="arduino">
+      <UniqueIdentifier>{a9b38c30-f096-41fa-8462-10d56e314d78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tunalib">
+      <UniqueIdentifier>{3990286d-ed6e-43e5-b665-555723f22986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tunalib\arch">
+      <UniqueIdentifier>{76f521e6-669f-46d9-bfec-5069331ce30c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="arduino\HardwareSerial.cpp">
+      <Filter>arduino</Filter>
+    </ClCompile>
+    <ClCompile Include="arduino\HardwareSerial0.cpp">
+      <Filter>arduino</Filter>
+    </ClCompile>
+    <ClCompile Include="arduino\HardwareSerial2.cpp">
+      <Filter>arduino</Filter>
+    </ClCompile>
+    <ClCompile Include="arduino\main.cpp">
+      <Filter>arduino</Filter>
+    </ClCompile>
+    <ClCompile Include="arduino\Print.cpp">
+      <Filter>arduino</Filter>
+    </ClCompile>
+    <ClCompile Include="arduino\Stream.cpp">
+      <Filter>arduino</Filter>
+    </ClCompile>
+    <ClCompile Include="arduino\abi.cpp">
+      <Filter>arduino</Filter>
+    </ClCompile>
+    <ClCompile Include="arduino\HardwareSerial3.cpp">
+      <Filter>arduino</Filter>
+    </ClCompile>
+    <ClCompile Include="arduino\HardwareSerial1.cpp">
+      <Filter>arduino</Filter>
+    </ClCompile>
+    <ClCompile Include="arduino\wiring.cpp">
+      <Filter>arduino</Filter>
+    </ClCompile>
+    <ClCompile Include="arduino\wiring_analog.cpp">
+      <Filter>arduino</Filter>
+    </ClCompile>
+    <ClCompile Include="arduino\wiring_digital.cpp">
+      <Filter>arduino</Filter>
+    </ClCompile>
+    <ClCompile Include="tunalib\utils.cpp">
+      <Filter>tunalib</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>
